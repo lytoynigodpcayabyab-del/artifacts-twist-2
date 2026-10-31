@@ -26,3 +26,8 @@ jobs:
         with:
           name: TwistArtifacts-jar
           path: build/libs/TwistArtifacts.jar # Standard Gradle build path
+          
+- uses: actions/setup-java@v5
+    with:
+      distribution: temurin
+      java-version: '21'
